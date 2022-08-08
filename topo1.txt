@@ -1,0 +1,35 @@
+h host0
+h host1
+h host2
+h host3
+h host4
+h host5
+h host6
+h host7
+s switch0
+s switch1
+s switch2
+s switch3
+s switch4
+l host0 switch1 200
+l host1 switch1 200
+l host2 switch2 200
+l host3 switch2 200
+l host4 switch3 200
+l host5 switch3 200
+l host6 switch4 200
+l host7 switch4 200
+l switch0 switch1 500
+l switch0 switch2 500
+l switch0 switch3 500
+l switch0 switch4 500
+t host0 switch1 messageTRANSFER0
+t host4 switch1 longermessageTRANSFER1
+t host2 switch1 longermessageTRANSFER2
+t host3 switch3 longermessageTRANSFER3
+t host2 switch2 longermessageTRANSFER4
+t host6 switch0 longermessageTRANSFER5
+t host2 switch1 hello
+t host3 switch3 dr
+t host2 switch2 mcnair
+t host6 switch0 ECE
