@@ -22,3 +22,4 @@ then test_op program can be used as such
 ./test_op output.txt comparison_output.txt
 
 
+![image](https://user-images.githubusercontent.com/63935881/183444139-e7898144-8643-48b2-a044-9d7c80d4f691.png)
