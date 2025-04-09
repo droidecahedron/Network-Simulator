@@ -1,8 +1,6 @@
 # Network-Simulator
 c based network simulator in linux
 
-Johnny Nguyen
-
 topo1.txt is the custom topology file with transfers you want
 
 if youre not used to running c executables in linux, run sudo make before you try to execute the program to use the compiler to generate relevant files and make it... well. run.
